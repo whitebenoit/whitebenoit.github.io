@@ -331,9 +331,20 @@ ol.type li a:hover {
 	background-color: #E7E6E6;
     text-align: center;
 }
+/*#social-section .social ul:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}*/
+#social-section .social ul{
+
+  line-height: 20px;
+}
 #social-section .social ul li {
 	display: inline-block;
 	margin: 0 20px;
+	height: 100%;
 }
 #social-section .social i.fa {
 	font-size: 30px;
