@@ -30,7 +30,7 @@ h5 {
 	font-weight: 700;
 	line-height: 20px;
 }
-p {
+p , li{
 	font-family: 'Open Sans', sans-serif;
 	color: #888;
 	line-height: 24px;
