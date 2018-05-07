@@ -1,0 +1,52 @@
+#sendScoreXtra input[type=text], input[type=password] {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#sendScoreXtra label {
+	color:#D8960E;
+}
+
+#sendScoreXtra button{
+    display: block;
+    background-color: #0F3283;
+    color: white;
+    /*padding: 14px 20px;
+    margin: 0 auto;*/
+    margin-top: 15%;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    height: 50%;
+    width: 100%;
+}
+
+#sendScoreXtra button:hover{
+    background-color: #D8960E;
+
+}
+/*
+#loginXtra #signInBut{
+    padding: 8px 5px;
+    width: 20%;
+}*/
+
+.ldListElmUl{
+  	display: flex;
+  	justify-content: space-around;
+}
+
+.ldListElm{
+  	flex: 1 1 100%;
+	display: inline-block;
+  	text-align: left;
+  	align-items: center;
+}
+
+.ldListElmRow:nth-child(even){
+	background-color: #EEEEEE;
+}
