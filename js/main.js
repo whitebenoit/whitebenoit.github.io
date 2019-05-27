@@ -38,6 +38,15 @@ function main() {
         offset: 80
     })
 
+    $('div.lang_GB').click(function(){
+      var fileName = location.href.split("/").slice(-1);
+      window.open("./en/".concat(fileName), "_self");
+    });
+
+    $('div.lang_FR').click(function(){
+      var fileName = location.href.split("/").slice(-1);
+      window.open("./../".concat(fileName), "_self");
+    });
 
   	/*====================================
     Pretty Photo

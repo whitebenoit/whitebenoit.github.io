@@ -135,6 +135,23 @@ header p {
 	margin-bottom: 60px;
 	padding: 0 4px;
 }
+
+#menu.navbar-default .navbar-nav > li > .lang_GB:hover, #menu.navbar-default .navbar-nav > li > .lang_FR:hover {
+	color: #D8960E;
+}
+
+.lang_GB, .lang_FR{
+	cursor: pointer;
+	background: transparent;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.center{
+	margin : 0 auto;
+	width: 640px;
+}
+
 .intro-text {
 	position: relative;
 	padding-top: 250px;
